@@ -1,0 +1,40 @@
+*{
+    background-color:#dbdbdb;
+    align-content:center ;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color:#de8656;
+    text-align: center;
+    font-size: 32px;
+    
+}
+.headerName{
+    color: #de8656;
+}
+
+.row{
+    align-content: space-around;
+    
+    
+    
+}
+
+.card{
+    flex-shrink: initial;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-content: space-around;
+}
+
+
+
+.card-body{
+    border: solid;
+    border-color: black;
+    width: 500px;
+    word-wrap: break-word;
+}
+
+
