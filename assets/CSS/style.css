@@ -1,0 +1,80 @@
+* {
+    background-color: #dbdbdb;
+    align-content: center;
+    box-sizing: border-box;
+    
+}
+
+/*Potential fonts: Roboto Slab, Mont Serrat, Playfair Display, League Spartan, LTC Bodoni 175, Calluna, Futura PT, Freight Display Pro*/
+
+/*Start of header section*/
+.header {
+    padding: 20px;
+    
+    font-family: 'Roboto Slab' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #F78a10;
+
+}
+
+.header h1 {
+    
+    display: inline-block;
+    background: transparent;
+}
+
+/*potential backup color E6903c*/
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background: transparent;
+
+}
+
+header div ul {
+    list-style-type: none;
+    background: transparent;
+    
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    background: transparent;
+
+}
+
+a {
+    background: transparent;
+    color: whitesmoke;
+}
+
+/*End of Header section*/
+
+/*Start of  About Me section (still need photo)*/
+#aboutMe {
+    
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 10%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #107df7;
+}
+
+#aboutMe h3 {
+    background: transparent;
+    color: whitesmoke;
+}
+
+#aboutMe p {
+    background: transparent;
+    font-size: large;
+}
+
+/*End of About Me section*/
