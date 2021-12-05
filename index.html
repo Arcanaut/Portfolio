@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap">
     <link rel="stylesheet" href="./assets/CSS/style.css">
-    
+
     <title>Portfolio</title>
 </head>
 
 <body>
     <header class="header" id="bAhearn">
         <h1 id="name">Brendan Ahearn</h1>
-        <div>
+        <div id="headerLinks">
             <ul>
                 <li>
                     <a href="#aboutMe">About Me</a>
@@ -28,38 +28,40 @@
             </ul>
         </div>
     </header>
+
+
+
     <main>
-        <div id="aboutMe">
-            <p></p>
-        </div>
 
-
-    <main class="content">
-        <section class="hero" id="aboutMe"> 
-            
-            
-            <img src=""
-                alt="A tall, handsome man wearing a suit and glasses."/>
+        <section class="hero" id="aboutMe">
             <h3>About Me</h3>
-            <p>Hello, my name is Brendan Ahearn. As a believer that "the only constant in life
-                is change" (Heraclitus), I subscribe to the idea the the key to success is adaptability.
-                That's why I am currently going to school at Southern Methodist University, where I am 
-                learning how to become a fullstack Web Developer. 
-                
-                When I'm not learning new coding languages I like to read, write, and spend time with my cat and two dogs.</p>         
+            <img id="headshot" src="./assets/images/portHeadshot.jpg" alt="A tall man wearing a suit and glasses." />
+
+            <p class="text" id="quote"> "The only constant in life is change" -Heraclitus.</p>
+
+            <p class="text" id="aboutMeBody">Hello, My name is Brendan Ahearn. As a firm believer that the key to success
+                is adaptability I am currently going to school at Southern Methodist University, where I am learning how to become a
+                fullstack Web Developer. When I'm not learning new coding languages I like to read, write, and spend time with my cat and two
+                dogs.</p>
         </section>
-        <section class="work" id="portfolio">
-    <h2 class="hero" id="portfolioHeader">Previous Projects</h2>
+
+        <section id="portfolio">
+            <h2 class="hero" id="portfolioHeader">Previous Projects</h2>
+
+            <div class="projectContainer">
+                <!--link is to different repo user due to them hosting the group project-->
+                <a href="https://collin-beisel-tm.github.io/game-grab/" target="_blank">
+                    <div class="projectContainer1">
+                        <article class="projectContent1" >
+                            <!--<h3>Game Grab</h3>-->
+                            </article> 
+                    </div>
+                </a>
+                
+        </section>
 
 
-    <div class="project" id="">
-        <img src="" class="" alt="">
-        <article class="projectName"></article>
-    </div>
-</section>
-
-
-
+        </div>
     </main>
 
 
@@ -69,6 +71,17 @@
 
 
 
+
+    <footer id="contactInfo">
+        <div>
+            <ul>
+                <li><a href="" target="_blank">Github</a></li>
+                <li><a href="" target="_blank">LinkedIn</a></li>
+                <li><a href="" target="_blank">Indeed</a></li>
+                <li><a href="" target="_blank">Jobcase</a></li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 

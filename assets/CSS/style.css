@@ -20,6 +20,7 @@
     
     display: inline-block;
     background: transparent;
+    
 }
 
 /*potential backup color E6903c*/
@@ -34,21 +35,21 @@
 
 }
 
-header div ul {
+.header div ul {
     list-style-type: none;
     background: transparent;
     
 }
 
-header div ul li {
+.header div ul li {
     display: inline-block;
     margin-left: 25px;
-    background: transparent;
+    
 
 }
 
-a {
-    background: transparent;
+.a {
+    background-color: transparent;
     color: whitesmoke;
 }
 
@@ -69,7 +70,9 @@ a {
 
 #aboutMe h3 {
     background: transparent;
-    color: whitesmoke;
+    color: #dbdbdb;
+    text-align: center;
+
 }
 
 #aboutMe p {
@@ -77,4 +80,101 @@ a {
     font-size: large;
 }
 
+#quote{
+    background-color: #107df7;
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic;
+}
+
+#headshot{
+height: 130px;
+width: fit-content;
+background-color: transparent;
+padding-left: 25%;
+}
 /*End of About Me section*/
+
+/*Projects Section*/
+
+#portfolio h2 {
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+    margin: 40px 0 20px 0;
+    
+}
+
+.projectContainer {
+    width: 60%;
+    margin: auto;
+}
+
+.projectContainer1 {
+    flex-basis: 50%;
+    height: 15em;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.projectContent1 {
+    
+    flex-basis: 90%;
+    height: 100%;
+    background-image: url("../images/GameGrabPreview.png");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 25px;
+    border: solid thin;
+}
+
+.projectContainer1 :hover {
+    border: solid thick;
+    border-color: #F78a10;
+}
+
+
+
+
+
+
+/*End of Projects Section*/
+
+/*footer section*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #107df7;
+    position: relative;
+    margin-top: -180px;
+    /* negative value of footer height */
+    height: 180px;
+    clear: both;
+}
+.footer div ul {
+    list-style-type: none;
+    background: transparent;
+    background-color: transparent;
+    
+}
+
+.footer div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    background: transparent;
+
+}
+
+
+/*footer section ending*/
