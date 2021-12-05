@@ -1,0 +1,334 @@
+* {
+    background-color: #dbdbdb;
+    align-content: center;
+    box-sizing: border-box;
+    
+}
+
+/*Potential fonts: Roboto Slab, Mont Serrat, Playfair Display, League Spartan, LTC Bodoni 175, Calluna, Futura PT, Freight Display Pro*/
+
+/*Start of header section*/
+.header {
+    padding: 20px;
+    
+    font-family: 'Roboto Slab' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #F78a10;
+
+}
+
+.header h1 {
+    
+    display: inline-block;
+    background: transparent;
+    
+}
+
+/*potential backup color E6903c*/
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background: transparent;
+}
+
+.header div ul {
+    list-style-type: none;
+    background: transparent;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    background: transparent;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background: transparent;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*End of Header section*/
+
+/*Start of  About Me section (still need photo)*/
+/* .biography {
+
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 00px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-content: center;
+} */
+
+#aboutMe h3 {
+    background: transparent;
+    color: #dbdbdb;
+    text-align: center;
+    font-size: 28px;
+
+}
+
+#aboutMe p {
+    
+    background: transparent;
+    align-content: center;
+    text-align: center;
+
+}
+
+#quote{
+    background-color: transparent;
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 32px;
+}
+
+#headshot{
+height: 130px;
+background-color: transparent;
+}
+/*End of About Me section*/
+
+
+
+
+
+
+/*Projects Section*/
+
+#portfolio h2 {
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+    margin: 40px 0 20px 0;
+    
+}
+
+.projectContainer {
+    width: 50%;
+    margin: auto;
+}
+/*Game Grab Card*/
+.projectContainer1 {
+    flex-basis: 50%;
+    height: 15em;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.projectContainer1 :hover {
+    border: solid thick;
+    border-color: #F78a10;
+}
+.projectContent1 {
+    
+    flex-basis: 100%;
+    height: 100%;
+    background-image: url("../images/GameGrabPreview.png");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 25px;
+    border: solid thin;
+}
+
+/* End of Game Grab*/
+
+
+.projectContainer2 {
+    height:200px;
+    flex-basis: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.projectContainer2 a {
+    flex-basis: 46%;
+    height: 100%;
+    
+}
+
+.projectContainer2 :hover {
+    border: solid thick;
+    border-color: #F78a10;
+    /*TaskMaster Pro Card*/
+}
+.projectContent2 {
+    background-image: url("../images/TaskMasterProPreview.png");
+    background-size: cover;
+    background-position: top;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 25px;
+    border:solid thin;
+    margin-right: 5px;
+    height: 200px;
+}
+
+/*End of Taskmaster Pro*/
+
+.projectContent2 a {
+    flex-basis: 40%;
+    height: 100%;
+    
+}
+
+/*Work Day Scheduler Card*/
+.projectContent3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 25px;
+    border: var(--primary-color) solid thin;
+    margin-right: 5px;
+    height: 200px;
+    background-image: url("../images/WorkDay.png");
+    background-size: cover;
+    background-position: top;
+    
+    
+}
+
+.projectContent3 a {
+    flex-basis: 40%;
+    height: 100%;
+    
+}
+
+.projectContent3 :hover {
+    border: solid thick;
+    border-color: #F78a10;
+}
+
+/*End of Work Day Scheduler*/
+
+.projectContainer3 {
+    height:200px;
+    flex-basis: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+}
+
+.projectContainer3 a {
+    flex-basis: 46%;
+    height: 100%;
+    
+}
+
+.projectContainer3 :hover {
+    border: solid thick;
+    border-color: #F78a10;
+    /*TaskMaster Pro Card*/
+}
+.projectContent4 {
+    background-image: url("../images/GitDone.png");
+    background-size: cover;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 25px;
+    border:solid thin;
+    margin-right: 5px;
+    height: 200px;
+}
+
+/*End of Taskmaster Pro*/
+
+.projectContent4 a {
+    flex-basis: 40%;
+    height: 100%;
+    
+}
+
+.projectContent5 {
+    background-image: url("../images/PasswordGen.png");
+    background-size: cover;
+    background-position: top;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 25px;
+    border:solid thin;
+    margin-right: 5px;
+    height: 200px;
+}
+
+/*End of Taskmaster Pro*/
+
+.projectContent a {
+    flex-basis: 40%;
+    height: 100%;
+    
+}
+
+/*End of Projects Section*/
+
+/*footer section*/
+.footer {
+    
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #107df7;
+    position: relative;
+    margin-top: -180px;
+    /* negative value of footer height */
+    height: 180px;
+    clear: both;
+}
+.footer div ul {
+    list-style-type: none;
+    background: transparent;
+    background-color: transparent;
+    
+}
+
+.footer div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    background: transparent;
+
+}
+
+
+/*footer section ending*/
