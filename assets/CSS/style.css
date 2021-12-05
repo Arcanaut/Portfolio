@@ -152,26 +152,25 @@ background-color: transparent;
 
 .projectContainer2 {
     height:200px;
-    margin: 10px;
+    flex-basis: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    font-family: sans-serif;
-    font-style: italic;
-    
+
 }
 
-/*TaskMaster Pro Card*/
 .projectContainer2 a {
     flex-basis: 46%;
     height: 100%;
     
 }
 
-.projectContainer2 div :hover {
-    border: var(--secondary-color) solid thick;
+.projectContainer2 :hover {
+    border: solid thick;
+    border-color: #F78a10;
+    /*TaskMaster Pro Card*/
 }
 .projectContent2 {
     background-image: url("../images/TaskMasterProPreview.png");
@@ -185,7 +184,7 @@ background-color: transparent;
     flex-wrap: wrap;
     align-items: center;
     border-radius: 25px;
-    border: var(--primary-color) solid thin;
+    border:solid thin;
     margin-right: 5px;
     height: 200px;
 }
@@ -198,16 +197,8 @@ background-color: transparent;
     
 }
 
-.projectContent2 :hover {
-    border: solid thick;
-    border-color: #F78a10;
-}
-
 /*Work Day Scheduler Card*/
 .projectContent3 {
-    
-    background-size: cover;
-    background-position: top;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -236,6 +227,78 @@ background-color: transparent;
 }
 
 /*End of Work Day Scheduler*/
+
+.projectContainer3 {
+    height:200px;
+    flex-basis: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+}
+
+.projectContainer3 a {
+    flex-basis: 46%;
+    height: 100%;
+    
+}
+
+.projectContainer3 :hover {
+    border: solid thick;
+    border-color: #F78a10;
+    /*TaskMaster Pro Card*/
+}
+.projectContent4 {
+    background-image: url("../images/GitDone.png");
+    background-size: cover;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 25px;
+    border:solid thin;
+    margin-right: 5px;
+    height: 200px;
+}
+
+/*End of Taskmaster Pro*/
+
+.projectContent4 a {
+    flex-basis: 40%;
+    height: 100%;
+    
+}
+
+.projectContent5 {
+    background-image: url("../images/TaskMasterProPreview.png");
+    background-size: cover;
+    background-position: top;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 25px;
+    border:solid thin;
+    margin-right: 5px;
+    height: 200px;
+}
+
+/*End of Taskmaster Pro*/
+
+.projectContent a {
+    flex-basis: 40%;
+    height: 100%;
+    
+}
 
 /*End of Projects Section*/
 
