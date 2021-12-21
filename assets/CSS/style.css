@@ -29,7 +29,7 @@
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
     background: transparent;
 }
@@ -54,35 +54,6 @@ a {
 p {
     font-size: 16px;
 }
-
-/*End of Header section*/
-
-/*Start of  About Me section (still need photo)*/
-/* .biography {
-
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 00px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    align-content: center;
-} */
-
-#aboutMe h3 {
-    background: transparent;
-    color: #dbdbdb;
-    text-align: center;
-    font-size: 28px;
-
-}
-
-#aboutMe p {
-    
-    background: transparent;
-    align-content: center;
-    text-align: center;
-
-}
-
 #quote{
     background-color: transparent;
     text-align: center;
@@ -90,11 +61,61 @@ p {
     font-style: italic;
     font-size: 32px;
 }
+/*End of Header section*/
 
+/*Start of  About Me section*/
 #headshot{
-height: 130px;
+align-content: center;
+height: 200px;
+width: 150px;
 background-color: transparent;
 }
+#pictureFrame{
+    flex-basis: 50%;
+    height: 15em;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#aboutMe {
+    display: inline-flex;
+    flex:content;    
+    margin-bottom: 20px;
+    padding: 25px;
+    height: -100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    align-content: left;
+    
+} 
+
+#aboutMeHeader {
+    background: transparent;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    padding-left: 475px;
+
+}
+
+
+
+#aboutMe p {
+    align-content: center;
+    text-align: center;
+    font-size: 24px;
+    border: thick;
+    border-style: groove;
+    border-color: whitesmoke;
+    padding-top: 10px;
+
+}
+
+
+
+
 /*End of About Me section*/
 
 
@@ -205,7 +226,7 @@ background-color: transparent;
     flex-wrap: wrap;
     align-items: center;
     border-radius: 25px;
-    border: var(--primary-color) solid thin;
+    border: solid thin;
     margin-right: 5px;
     height: 200px;
     background-image: url("../images/WorkDay.png");
@@ -249,8 +270,10 @@ background-color: transparent;
 .projectContainer3 :hover {
     border: solid thick;
     border-color: #F78a10;
-    /*TaskMaster Pro Card*/
-}
+
+} 
+
+/*TaskMaster Pro Card*/
 .projectContent4 {
     background-image: url("../images/GitDone.png");
     background-size: cover;
@@ -276,7 +299,7 @@ background-color: transparent;
 }
 
 .projectContent5 {
-    background-image: url("../images/TaskMasterProPreview.png");
+    background-image: url("../images/runBuddy.png");
     background-size: cover;
     background-position: top;
     background-size: cover;
@@ -304,31 +327,25 @@ background-color: transparent;
 
 /*footer section*/
 .footer {
-    
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    background-color: #107df7;
-    position: relative;
-    margin-top: -180px;
-    /* negative value of footer height */
-    height: 180px;
-    clear: both;
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #F78a10;
+    font-size: 20px;
 }
-.footer div ul {
-    list-style-type: none;
-    background: transparent;
+
+
+
+.footer div ul li a {
     background-color: transparent;
-    
 }
 
-.footer div ul li {
-    display: inline-block;
-    margin-left: 25px;
-    background: transparent;
+.address{
+    background:#F78a10
+}
+#email { color: whitesmoke;
 
 }
-
-
 /*footer section ending*/
