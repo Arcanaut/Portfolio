@@ -25,7 +25,7 @@ Team Profile Generator
 
   Methods of contacting me at the bottom of the page
 
-![Portfolio Screenshot](screenshot here)
+![Portfolio Screenshot](https://github.com/Arcanaut/Portfolio/blob/develop/assets/images/portPreview.png)
 
   ## Installation 
   None required
