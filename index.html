@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap">
     <link rel="stylesheet" href="./assets/CSS/style.css">
+
     <title>Portfolio</title>
 </head>
 
 <body>
     <header class="header" id="bAhearn">
-        <h1>Brendan Ahearn</h1>
-        <div>
+        <p class="text" id="quote"> "The only constant in life is change" -Heraclitus</p>
+        <div id="headerLinks" style="position: relative; top: -39px;">
             <ul>
                 <li>
                     <a href="#aboutMe">About Me</a>
@@ -29,36 +30,90 @@
     </header>
 
 
-    <main class="content">
-        <section class="hero" id="aboutMe">
-            <p></p>         
+
+    <main>
+
+        <h2 id="aboutMeHeader">About Me</h2>
+        <h3 class="hero" id="pictureFrame"><img class="photo" id="headshot" src="..//Portfolio/assets/images/portHeadshot.jpg"
+                alt="A man in a suit wearing glasses"></h3>
+        <section class="biography" id="aboutMe">
+
+
+
+            <p class="text" id="aboutMeBody"> Hello, My name is Brendan Ahearn. Because I am a firm believer that the
+                key to success is adaptability I am currently going to school at Southern Methodist University, where I am learning both the latest and
+                legacy languages so that I can become fullstack Web Developer. When I'm not learning new coding languages 
+                I like to play tabletop games and spend time with my pets.
+            </p>
         </section>
-        <section class="work" id="portfolio">
-    <h2 class="hero" id="portfolioHeader">Portfolio</h2>
+
+        <section id="portfolio">
+            <h2 class="hero" id="portfolioHeader">Previous Projects</h2>
+
+            <div class="projectContainer">
+                
+                
+                <!--link is to different repo user due to them hosting the group project-->
+                <a href="https://collin-beisel-tm.github.io/game-grab/" target="_blank">
+                    <div class="projectContainer1">
+                        <article class="projectContent1">
+                            <!--<h3>Game Grab</h3>-->
+                        </article>
+                    </div>
+                </a>
 
 
-    <div class="project" id="">
-        <img src="" class="" alt="">
-        <article class="projectName"></article>
-    </div>
-</section>
+                <!--Second Row of Apps-->
+                <div class="projectContainer2">
+                    <!--Task Master Pro-->
+                    <a href="https://arcanaut.github.io/taskmaster-pro/" target="_blank">
+                        <article class="projectContent2"></article>
+                    </a>
+                    <!--Work Day Scheduler-->
+                    <a href="https://arcanaut.github.io/Work-Day-Scheduler/" target="_blank">
+                        <article class="projectContent3"></article>
+                    </a>
+                </div>
+
+
+                <!--Third row of apps-->
+                <div class="projectContainer3">
+                    <!--Git It Done-->
+                    <a href="https://arcanaut.github.io/git-it-done/" target="_blank">
+                        <article class="projectContent4"></article>
+                    </a>
+                    <!--Run Buddy-->
+                    <a href="https://arcanaut.github.io/run-buddy/" target="_blank">
+                        <article class="projectContent5"></article>
+                    </a>
+                </div>
+        </section>
+        </div>
+
+
+    
+        <footer class="footer"> 
+        
+            <div>
+                <ul>
+                    <li><a href="https://github.com/Arcanaut" target="_blank">Github</a></li>
+                    <li><a href="https://my.indeed.com/p/brendana-n6rfi7o" target="_blank">Indeed</a></li>
+                    <li><a href="https://www.jobcase.com/profile/AoTnI6CVKGq-1hKu3hDa2IOT" target="_blank">Jobcase</a></li>
+                    <li><a href="https://www.linkedin.com/in/brendan-ahearn-476688a5/" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+            <h2 id="contactInfo">Reach Out</h2>
+            <div>
+                phone: 469-262-9864
+            </br>
+                Email: <a id="email" href="mailto:brendan.ahearn@gmail.com">brendan.ahearn@gmail.com</a>
+            </div>
+        
+        </footer>
+    </main>
 
 
 
-
-</main>
-</body>
-
-</html>
-
-
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="./assets/script.js"></script>
 </body>
 
 </html>
