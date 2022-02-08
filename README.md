@@ -9,11 +9,11 @@ Team Profile Generator
   * [Questions](#Questions)
   * [License](#License)
 
-![Portfolio Screenshot](https://github.com/Arcanaut/Portfolio/blob/develop/assets/images/portPreview.png)
-
 
   ## Description
   A portfolio showing projects done while attending Southern Methodist University
+
+
 
   ## Features
 
@@ -25,13 +25,13 @@ Team Profile Generator
 
   Methods of contacting me at the bottom of the page
 
-
+![Portfolio Screenshot](https://github.com/Arcanaut/Portfolio/blob/develop/assets/images/portPreview.png)
 
   ## Installation 
   None required
 
   ## Usage
-  Go to the page by downloading and opening it up your preferred browser or by following the link [HERE](https://arcanaut.github.io/Portfolio/)
+  Go to the page by downloading and opening it up your preferred browser or by following the link at [github]()
 
   ## Tests
   No testing functions/npm libraries were used while debugging this.
