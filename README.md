@@ -31,7 +31,7 @@ Team Profile Generator
   None required
 
   ## Usage
-  Go to the page by following the link at [github]()
+  Go to the page by following the link at [github](https://arcanaut.github.io/Portfolio/)
 
   ## Tests
   No testing functions/npm libraries were used while debugging this.
